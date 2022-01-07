@@ -12,7 +12,7 @@ class AuthController extends Controller
     public function register(Request $reqest){
         $input = $this->validate($reqest,[
             'email' => "required|email|unique:users,email",
-            'phone' => "bail|unique:users,phone|numeric|digits_between:10,13",
+            'phone' => "bail|unique:users,phone|numeric|digits_between:10,13|nullable",
             'name' => "required",
             'password' => "required"
         ]);
