@@ -2,7 +2,8 @@
 
 ## Clarifya
 
-This is a minimal API just for Login, Registration and retrieving user data (ME) and access token. It was made using of Laravel Passport.
+This is a minimal API just for Login, Registration and retrieving user data and access token (ME). 
+It was developed using Laravel Passport.
 
 <b>For complete API documentation, Visit the link below</b>
 
